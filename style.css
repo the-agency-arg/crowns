@@ -1,6 +1,6 @@
 /* Default values */
 :root {
-  --color-bg: #69F7BE;
+  --color-bg: #f5e4c3;
   --color-text-main: #000000;
   --color-text-header: #2800FF;
   --color-primary: #FFFF00;
@@ -45,6 +45,10 @@ body {
 .left-panel {
   flex: 7;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .right-panel {
@@ -143,14 +147,16 @@ body {
 
 .container {
   position: relative;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  aspect-ratio: 1000 / 900; /* match original image ratio */
 }
 
 .background-img {
-  height: 100%;
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
   display: block;
 }
 
