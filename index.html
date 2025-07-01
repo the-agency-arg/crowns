@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Hotspot Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <div class="left-panel">
+      <div class="container">
+        <img class="background-img" src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/render2.png?v=1750829691256" alt="Map" />
+
+        <!-- Click Zones -->
+        <div class="zone zone3" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown1.glb?v=1750801484140')"></div>
+        <div class="zone zone1" onclick="showModel('https://cdn.glitch.me/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown2.glb?v=1750801490166')"></div>
+        <div class="zone zone8" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown3.glb?v=1750801489001')"></div>
+        <div class="zone zone5" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown4.glb?v=1750801492813')"></div>
+        <div class="zone zone2" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown5.glb?v=1750801494360')"></div>
+        <div class="zone zone4" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown6.glb?v=1750801499046')"></div>
+        <div class="zone zone9" onclick="showModel('https://cdn.glitch.me/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown7.glb?v=1750801502267')"></div>
+        <div class="zone zone7" onclick="showModel('https://cdn.glitch.me/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown8.glb?v=1750801512929')"></div>
+        <div class="zone zone6" onclick="showModel('https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/crown9.glb?v=1750801653042')"></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="scroll-container">
+        <div class="scroll-top-wrapper">
+          <img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/scroll-top.png?v=1750808919133" class="scroll-end top" />
+        </div>
+        <div class="scroll-inner-wrapper">
+          <div class="scroll-content">
+            <h2>A Brief History of Our Unique Kings</h2>
+            <p>Upon our land is a curse that befalls each ruler. At their birth, the king-to-be is struck with a curse: both <b>blindness and illiteracy</b>. Thanks to indisputable technology, we know
+            how to partially break it. By setting a <b>certain stone into the crown of King based on when they are born</b>, they can read with their hands, but.. <i>in a special way!</i> </p>
+            <br>
+            <p>
+              While we can't say exactly what their special way was, we have been gifted with each King's interpretation of certain texts, or addages passed down! We also know they could not understand any words not conforming to their peculiarities.
+            </p>
+            <br>
+            <h3>
+    King Marcus the Tyrant
+</h3>
+<p>When provided with the text "hello, and ƃɹǝǝʇᴉuƃs", the Tyrant only recorded "greetings"</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/marcus.png?v=1750822529606 " />
+<br>
+<h3>
+    King Jordan the Bold
+</h3>
+<p>He claimed that the Roman Empire was so great, that he would only read as Caesar did.</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/jordan.png?v=1750822534167" />
+<br>
+<h3>
+    King Igris the Bloodred
+</h3>
+<p>Our sources claim he could only read when it was reflected off a pool of his enemies blood."</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/igris.png?v=1750822535951" />
+<br>
+<h3>
+    King Rufus the Famished
+</h3>
+<p>When provided with the text "good evening our wonderful and starved King!", the Famished only recorded "evening our and".</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/rufus.png?v=1750822530933" />
+<br>
+<h3>
+    King Thorfinn the Reformed
+</h3>
+<p> Through repentence, King Thorfinn is the only ruler to overcome the curse.</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/thorfinn.png?v=1750822520237" />
+<br>
+<h3>
+    King Alfred the Butler
+</h3>
+            <p>A messenger once spilled ink halfway through a letter and improvised to write "war is <span style="background: black;color: white;">coming soon</span> sire". Alfred, for the first time, wrote "coming soon".</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/butt2.png?v=1750824037754" />
+<br>
+<h3>
+    King Ptolomy the Fat
+</h3>
+<p>He once intercepted a message between guards saying "This king is the biggest doof I've ever served." He only exclaimed "FOOD?"</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/pt2.png?v=1750824038901" />
+<br>
+<h3>
+    King Leo the Impaler
+</h3>
+<p>A descendant of Rufus, he was once provided "good evening our wonderful and impaling King". After impaling the greeter, he wrote "good wonderful King", and smiled.</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/leo.png?v=1750822539345" />
+<br>
+<h3>
+    King Albert the Old
+</h3>
+<p>His nephew was teaching him new slang, starting with "schooled". Albert confusedly wrote, "Shoe? Cold?".</p>
+<img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/albert.png?v=1750824038092" />
+<br>
+
+            <!-- your scrollable <p> content here -->
+          </div>
+        </div>
+        <div class="scroll-bottom-wrapper">
+          <img src="https://cdn.glitch.global/19b17de9-d8f6-4a89-a7e0-f3681f4fe2ac/scroll-bottom.png?v=1750808926717" class="scroll-end bottom" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overlay Modal -->
+  <div class="overlay" id="overlay">
+  <span class="close-btn" onclick="hideOverlay()">&times;</span>
+    <model-viewer 
+  id="model"
+  src="model.glb" 
+  camera-controls 
+  auto-rotate 
+  exposure="2" 
+  shadow-intensity="0.8" 
+  shadow-softness="0.5" 
+  environment-image="neutral" 
+></model-viewer>
+  <img id="overlay-image" alt="Zoomed Image" />
+</div>
+
+  <script>
+  function showModel(src) {
+    const overlay = document.getElementById('overlay');
+    const model = document.getElementById('model');
+    const image = document.getElementById('overlay-image');
+
+    model.setAttribute('src', src);
+    model.style.display = 'block';
+    image.style.display = 'none';
+
+    overlay.classList.add('show');
+  }
+
+  function showImage(src) {
+    const overlay = document.getElementById('overlay');
+    const model = document.getElementById('model');
+    const image = document.getElementById('overlay-image');
+
+    model.removeAttribute('src');
+    model.style.display = 'none';
+
+    image.src = src;
+    image.style.display = 'block';
+
+    overlay.classList.add('show');
+  }
+
+  function hideOverlay() {
+    const overlay = document.getElementById('overlay');
+    const model = document.getElementById('model');
+    const image = document.getElementById('overlay-image');
+
+    overlay.classList.remove('show');
+    model.removeAttribute('src');
+    image.removeAttribute('src');
+  }
+
+  // Optional: make all scroll-content images clickable
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.scroll-content img').forEach(img => {
+      img.addEventListener('click', () => showImage(img.src));
+    });
+  });
+</script>
+
+</body>
+</html>
